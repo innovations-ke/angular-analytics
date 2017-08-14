@@ -6,9 +6,4 @@ describe('angular-analytics App', () => {
   beforeEach(() => {
     page = new AngularAnalyticsPage();
   });
-
-  it('should display welcome message', () => {
-    page.navigateTo();
-    expect(page.getParagraphText()).toEqual('Welcome to app!');
-  });
 });
